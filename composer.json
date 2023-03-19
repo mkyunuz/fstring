@@ -1,0 +1,11 @@
+{
+    "name": "mkyunuz/fstring",
+    "description": "String helper",
+    "autoload": {
+        "psr-4": {
+            "Mkyunuz\\FString\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
