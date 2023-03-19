@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkyunuz\FString\Contract;
+namespace Mkyunuz\String\Contract;
 
 interface FStringInterface 
 {

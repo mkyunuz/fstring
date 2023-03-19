@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkyunuz\FString\Validation;
+namespace Mkyunuz\String\Validation;
 
 trait EmailValidation 
 {

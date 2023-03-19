@@ -1,9 +1,9 @@
 <?php
 
-namespace Mkyunuz\FString;
+namespace Mkyunuz\String;
 
-use Mkyunuz\FString\Abstracts\BaseFString;
-use Mkyunuz\FString\Contract\FStringInterface;
+use Mkyunuz\String\Abstracts\BaseFString;
+use Mkyunuz\String\Contract\FStringInterface;
 
 class FString extends BaseFString implements FStringInterface {
 

@@ -1,7 +1,7 @@
 <?php
-namespace Mkyunuz\FString;
+namespace Mkyunuz\String;
 
-use Mkyunuz\FString\Contract\NumberInterface;
+use Mkyunuz\String\Contract\NumberInterface;
 
 class Number implements NumberInterface {
 

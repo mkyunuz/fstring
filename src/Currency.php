@@ -1,5 +1,5 @@
 <?php
-namespace Mkyunuz\FString;
+namespace Mkyunuz\String;
 
 class Currency{
 

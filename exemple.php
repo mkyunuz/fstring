@@ -1,7 +1,7 @@
 <?php
 
 require "./vendor/autoload.php";
-use Mkyunuz\FString\FString;
+use Mkyunuz\String\FString;
 
 
 var_dump( FString::isPhone("+6281326333085"));

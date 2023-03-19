@@ -1,14 +1,14 @@
 <?php
 
-namespace Mkyunuz\FString\Abstracts;
+namespace Mkyunuz\String\Abstracts;
 
-use Mkyunuz\FString\Contract\NumberInterface;
-use Mkyunuz\FString\Contract\FStringInterface;
-use Mkyunuz\FString\Contract\FStringValidationInterface;
-use Mkyunuz\FString\Number;
-use Mkyunuz\FString\Validation\DateValidation;
-use Mkyunuz\FString\Validation\EmailValidation;
-use Mkyunuz\FString\Validation\PhoneNumberValidation;
+use Mkyunuz\String\Contract\NumberInterface;
+use Mkyunuz\String\Contract\FStringInterface;
+use Mkyunuz\String\Contract\FStringValidationInterface;
+use Mkyunuz\String\Number;
+use Mkyunuz\String\Validation\DateValidation;
+use Mkyunuz\String\Validation\EmailValidation;
+use Mkyunuz\String\Validation\PhoneNumberValidation;
 
 abstract class BaseFString implements FStringInterface, FStringValidationInterface {
     use PhoneNumberValidation, EmailValidation, DateValidation;

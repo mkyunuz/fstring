@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mkyunuz\\FString\\": "src/"
+            "Mkyunuz\\String\\": "src/"
         }
     },
     "minimum-stability": "dev",
