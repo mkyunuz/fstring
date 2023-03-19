@@ -1,6 +1,7 @@
 {
     "name": "mkyunuz/fstring",
     "description": "String helper",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Mkyunuz\\FString\\": "src/"
