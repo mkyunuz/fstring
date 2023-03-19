@@ -1,13 +1,13 @@
 <?php
 
-namespace Mkyunuz\Ystring;
+namespace Mkyunuz\FString;
 
-use Mkyunuz\Ystring\Abstracts\BaseYString;
-use Mkyunuz\Ystring\Contract\YStringInterface;
+use Mkyunuz\FString\Abstracts\BaseFString;
+use Mkyunuz\FString\Contract\FStringInterface;
 
-class YString extends BaseYString implements YStringInterface {
+class FString extends BaseFString implements FStringInterface {
 
-    public function make() : YStringInterface
+    public function make() : FStringInterface
     {
 
         return $this;
